@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
+body {
+    background-color: #96e430;
+}
+#login {
+    background-color: white ;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+h2 {
+    color: #606060;
+    font-weight: 100;
+    font-size: 2em;
+    margin-top: -20px ;
+}
+.icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:cornflowerblue ;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+input {
+    width: 250px;
+    background-color: #d3d3d3;
+    margin-bottom: 1em;
+    border: none;
+    padding: 0.8em;
+    border-radius: 5px;
+    text-align: center;
+}
+button { 
+    width: 270px;
+    height: 35px;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: crimson;
+}
+.shadow {
+    background-image: linear-gradient(90deg, transparent 49.9%,#0003 70%, transparent);
+    transform: translateY(-40px) rotate(45deg);
+}
+.shadowbox {
+    width: 300px;
+    height: 400px;
+    transform: translatex(98px) translateY(-140px) rotate(135deg);
+    
+    
+    
+}
+.under {
+    position: absolute;
+    z-index: 5;
+}
+
+
+
+
+    
+</style>
+</head>
+<body>
+
+
+<form id="login"> 
+<div class="shadow"><div class="icon"></div> </div> 
+<h2>Member Login</h2>
+<input placeholder="Username" type="text"> 
+<input placeholder="********" type="password">
+<button>Login</button> 
+<a href="">Forgot password?</a>
+<div class="under"><img class="shadowbox" src="https://i.dlpng.com/static/png/5248782-download-black-shadow-png-fade-to-black-png-png-image-with-no-fade-png-1598_446_preview.png" alt="">  </div>
+</form> 
+
+
+
+</body>
+</html>
