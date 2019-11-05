@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .switch {
+            cursor: pointer;
+        }
+
+        .switch .toggle {
+            width: 60px;
+            height: 20px;
+            background-color: #f2f2f2;
+            border-radius: 20px;
+            box-shadow: inset 0 0 5px 3px #ddd;
+            padding: 2px;
+            transition: 0.5s;
+        }
+
+        .switch .thumb {
+            height: 20px;
+            width: 20px;
+            background-image: linear-gradient(#fefefe, #e6e6e6);
+            border-radius: 20px;
+            box-shadow: 0 0 2px 1px #ddd;
+            transition: 0.5s;
+        }
+
+        .switch input {
+            display: none;
+        }
+
+        .switch input:checked+.toggle {
+            background-color: #18a4fd;
+        }
+
+        .switch input:checked+.toggle .thumb {
+            margin-left: 40px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <label class="switch">
+        <input type="checkbox">
+        <div class="toggle">
+
+            <div class="thumb">
+
+            </div>
+
+        </div>
+    </label>
+
+
+
+
+
+</body>
+
+</html>
